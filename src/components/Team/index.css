@@ -1,0 +1,91 @@
+.team-container {
+    background-color: #FBF8D9;
+    padding: 70px 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+@media screen and (max-width: 576px) {
+    .team-container {
+        padding: 15px;
+        flex-direction: row;
+    }
+}
+.team-content {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    position: relative;
+    max-width: 400px;
+    right: -15%;
+}
+@media screen and (max-width: 576px) {
+    .team-content {
+        flex-direction: column;
+    }
+}
+.team-image {
+    height: 210px;
+    width: 330px;
+    border: none;
+    border-radius: 10px;
+    z-index: 10;
+    position: absolute;
+    left:-70%;
+}
+.team-details {
+    border: 2px solid rgb(162, 142, 26);
+    padding: 20px 60px;
+    border-radius: 10px;
+    z-index:1;
+    height: 240px;
+    min-width: 350px;
+    right: -90%;
+}
+.team-main-heading {
+    color: black;
+    font-family: "Roboto";
+    font-weight: bold;
+    font-size: 24px;
+    margin-bottom: 2px;
+}
+.team-heading {
+    color: black;
+    font-family: "Open Sans";
+    font-weight: 500;
+    font-size: 20px;
+    margin-top: 5px;
+    margin-bottom: 1px;
+}
+.team-para {
+    color: #000000;
+    font-family: "Arial";
+    font-weight: 400;
+    font-size: 15px;
+    margin-top: 2px;
+}
+.team-description {
+    color: #000000;
+    font-family: "Roboto";
+    font-size: 14px;
+    font-weight: 200;
+}
+.team-button {
+    background-image: linear-gradient(to right,#AA771C,#B38728, #BF953F, #f6ee93,#BF953F,#B38728,#AA771C);
+    border: none;
+    border-radius: 20px;
+    padding: 7px 15px;
+    color: black;
+    font-family: "Roboto";
+    font-weight: bold;
+    font-size: 12px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+.mini {
+    width: 100%;
+    margin-top: 5px;
+}

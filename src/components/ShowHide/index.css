@@ -1,0 +1,53 @@
+.toggle-container {
+    display: flex;
+    flex-direction: column;
+    gap: 0px;
+}
+.toggle-header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+}
+@media screen and (max-width: 576px) {
+    .toggle-header {
+        gap: 7px;
+    }
+}
+.icon {
+    font-size: 30px;
+    font-family: "Roboto";
+    font-size: 200;
+    cursor: pointer;
+}
+@media screen and (max-width: 576px) {
+    .icon {
+        font-size: 15px;
+    }
+}
+.choose-toggle-heading {
+    font-family: "Roboto";
+    font-weight: 500;
+    font-size: 20px;
+    color: #000000;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+.toggle-content {
+    color: #000000;
+    font-family: "Roboto";
+    font-weight: 500;
+    font-size: 15px;
+    margin-left: 25px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    width: 420px;
+}
+.horizontal  {
+    border: 1px solid rgb(180, 156, 19);
+    width: 100%;
+}
+.hiding-content {
+    margin-top: 0;
+    margin-bottom:0;
+}

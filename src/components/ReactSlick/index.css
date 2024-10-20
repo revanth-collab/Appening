@@ -1,0 +1,76 @@
+.slider-container {
+    background-color: black;
+    min-height:530px;
+}
+.mental-health {
+    background-image: url("https://img.freepik.com/free-photo/mid-shot-woman-talking-man-therapist_23-2148759185.jpg?t=st=1729339982~exp=1729343582~hmac=c41edfbaff0f0292f32de027945cd64a3948416ec3a61bc71ea865a234b5c423&w=900");
+    height: 530px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+@media screen and (max-width: 576px) {
+    .mental-health {
+        height: 300px;
+    }
+}
+.mental-content {
+    background-image: linear-gradient(to right,black,rgb(22, 16, 16),transparent,transparent,transparent,transparent);
+    height:100%;
+    padding: 60px 120px;
+    width: 300px;
+}
+@media screen and (max-width: 576px) {
+    .mental-content {
+        padding: 20px;
+        width: 150px;
+    }
+}
+.mental-heading {
+    color: #ffffff;
+    font-family: "Roboto";
+    font-weight: bold;  
+    font-size: 32px;
+}
+@media screen and (max-width: 576px) {
+    .mental-heading {
+        font-size: 15px;
+    }
+}
+.mental-para {
+    color: #ffffff;
+    font-family: "Roboto";
+    font-weight: 400;
+    font-size: 18px;
+}
+@media screen and (max-width: 576px) {
+    .mental-para {
+        font-size: 12px;
+    }
+}
+.mental-button {
+    background-image: linear-gradient(to right,#AA771C,#B38728, #BF953F, #f6ee93,#BF953F,#B38728,#AA771C);
+    height: 35px;
+    padding: 7px 15px;
+    border: none;
+    border-radius: 20px;
+    color: black;
+    font-family: "Arial";
+    font-weight: bold;
+    font-size: 14px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+@media screen and (max-width: 576px) {
+    .mental-button {
+        padding: 7px 10px;
+        font-size: 10px;
+    }
+}
+.mini {
+    width: 100%;
+    color: black;
+    margin-top: 5px;
+}

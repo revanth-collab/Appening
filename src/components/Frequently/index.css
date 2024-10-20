@@ -1,0 +1,59 @@
+.frequently-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    padding: 20px 20px 30px 20px;
+    background-color: #FDFBEC;
+}
+@media screen and (max-width: 576px) {
+    .frequently-container {
+        padding: 10px;
+        gap: 5px;
+    }
+}
+.frequently-heading {
+    color: #000000;
+    font-family: "Roboto";
+    font-weight: bold;
+    font-size: 28px;
+}
+@media screen and (max-width: 576px) {
+    .frequently-heading {
+        font-size: 15px;
+    }
+}
+
+.frequently-button {
+    background-image: linear-gradient(to right,#AA771C,#B38728, #BF953F, #f6ee93,#BF953F,#B38728,#AA771C);
+    border: none;
+    border-radius: 20px;
+    padding: 10px 15px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+@media screen and (max-width: 576px) {
+    .frequently-button {
+        padding: 10px;
+        gap: 5px;
+    }
+}
+.frequently-button a {
+    text-decoration: none;
+    color: black;
+    font-family: "Roboto";
+    font-weight: bold;
+    font-size: 13px;
+}
+.frequently-mini {
+    margin-top: 50px;
+}
+@media screen and (max-width: 576px) {
+    .frequently-mini {
+        margin: 0px;
+    }
+}
